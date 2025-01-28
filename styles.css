@@ -23,7 +23,9 @@ li {
 li a:hover {
   background-color: #f5d57d;
 }
+
 .footer {
+  font-family: 'Courier New', Courier, monospace;
   color: rgb(40, 63, 45);
   text-align: center;
   padding: 14px 16px;
