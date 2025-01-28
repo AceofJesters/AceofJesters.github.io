@@ -1,0 +1,12 @@
+.absolute {
+  list-style-type: none;
+  margin: 17px;
+  padding: 23px;
+  overflow: hidden;
+  background-color: #202423;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #f5d57d;
+}
