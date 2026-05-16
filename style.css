@@ -1,0 +1,28 @@
+:root {
+    --darkgreen: #157F1F;
+    --lightgreen: #4CB963;
+    --lightblue: #A0EADE;
+    --greyblue: #0081AF;
+    --darkblue: #201E50;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--lightblue);
+}
+
+nav {
+    background-color: var(--darkblue);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+    display: flex;
+    padding: 10px;
+}
