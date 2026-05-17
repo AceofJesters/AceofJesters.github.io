@@ -14,14 +14,14 @@ body {
     background-color: var(--lightblue);
 }
 
-nav {
+.nav {
     background-color: var(--darkblue);
     color: white;
     display: flex;
     flex-direction: row;
 }
 
-a {
+.navElement {
     color: white;
     display: flex;
     padding: 10px;

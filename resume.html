@@ -4,38 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <banner>
+    <div class="banner">
     <h1>Basil Nelson</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="resume.html" class="active">Resume</a>
-      </nav>
-    </banner>
-    <resume>
-        <header>
-            <h1>Basil Nelson</h1>
-            <contact>
-                <text>Email: ems.nelson@hotmail.com</text>
-                <text>Phone: 425-443-0758</text>
-                <text>Github: https://github.com/AceofJesters</text>
-                <text>Website: https://aceofjesters.github.io/</text>
-            </contact>
-        </header>
-        <history>
+      <div class="nav">
+        <a href="index.html" class="navElement">Home</a>
+        <a href="about.html" class="navElement">About</a>
+        <a href="resume.html" class="active" class="navElement">Resume</a>
+      </div>
+    </div>
+    <div class="resume">
+        <div class="header">
+            <h1 class="name">Basil Nelson</h1>
+            <div class="contact">
+                <text class="contactElement">Email: ems.nelson@hotmail.com</text>
+                <text class="contactElement">Phone: 425-443-0758</text>
+                <div class="contactElement">
+                  <text>Github: </text>
+                  <a href="https://github.com/AceofJesters">AceofJesters</a>
+                </div>
+                <div class="contactElement">
+                  <text>Website: </text>
+                  <a href="https://aceofjesters.github.io/">aceofjesters.github.io/</a>
+                </div>
+            </div>
+        </div>
+        <div class="history">
             <h2>Work Experience</h2>
-            <jobHeader>
+            <div class="jobHeader">
                 <h3 class="jobTitle"></h3>
                 <text class="jobDate"></text>
-            </jobHeader>
+            </div>
             <text class="jobDescription"></text>
-        </history>
-        <skills>
+        </div>
+        <div class="skills">
 
-        </skills>
+        </div>
     </resume>
   </body>
 </html>
