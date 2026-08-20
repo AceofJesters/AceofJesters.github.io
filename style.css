@@ -6,10 +6,6 @@
     --darkblue: #201E50;
 }
 
-a.active {
-    font-weight: bold;
-}
-
 body {
     background-color: var(--lightblue);
 }
