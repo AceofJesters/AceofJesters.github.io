@@ -22,3 +22,41 @@ body {
     display: flex;
     padding: 10px;
 }
+
+.header {
+    background-color: var(--greyblue);
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job, .school {
+    background-color: var(--darkblue);
+    color:white;
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.job:hover, .school:hover {
+    box-shadow: 0px 0px 10px 5px var(--lightblue);
+}
+
+.education, .history, .volunteer, .skills {
+    background-color: var(--greyblue);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* Flex wrap
+each element is a flex box
+hold on
+flex none grow for each individual projects
+flex row */
