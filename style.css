@@ -32,6 +32,16 @@ body {
     align-items: left;
 }
 
+.bio, .welcomeParagraph {
+    background-color: var(--darkblue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 .navElement:hover, .contactElement:hover {
     color: var(--lightgreen);
 }
